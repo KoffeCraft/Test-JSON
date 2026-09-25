@@ -15,6 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="24sp"
+        android:textColor="#B1547F"
         android:text="Treść pytania" />
 
     <RadioGroup
@@ -23,18 +24,21 @@
         android:layout_height="wrap_content" >
 
         <RadioButton
+            android:textColor="#B1547F"
             android:id="@+id/radioButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="RadioButton" />
 
         <RadioButton
+            android:textColor="#B1547F"
             android:id="@+id/radioButton2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="RadioButton" />
 
         <RadioButton
+            android:textColor="#B1547F"
             android:id="@+id/radioButton3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -46,6 +50,8 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#FFC3F5"
+        android:textColor="#B1547F"
         android:text="Button" />
 
 </LinearLayout>
